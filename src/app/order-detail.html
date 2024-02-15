@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button />
+    </ion-buttons>
+    <ion-title>Orders Details</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  Get ID in Angular <= 15
+  <p>{{id$|async}}</p>
+  <br />
+  Get ID in Angular >= 16
+  <p>{{id || 'NOT FOUND'}}</p>
+</ion-content>
